@@ -12,7 +12,7 @@ npm install --save @focusinlab/react-hook-useratio
 
 ## Usage
 
-```tsx
+```jsx
 import * as React from 'react'
 
 import { useRatio } from '@focusinlab/react-hook-useratio'

@@ -1,6 +1,6 @@
 {
   "name": "@focusinlab/react-hook-useratio",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Custom hook to calculate aspect and assign height.",
   "author": "focus-in-lab",
   "license": "MIT",
