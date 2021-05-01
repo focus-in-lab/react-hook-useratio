@@ -1,6 +1,6 @@
 import React, { useEffect, useRef } from 'react'
 
-import { useRatio } from 'useratio'
+import { useRatio } from 'react-hook-useratio'
 
 const CustomButton = ({ children }) => {
   const ref = useRef(null)

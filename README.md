@@ -2,12 +2,12 @@
 
 > Custom React hook to calculate aspect and assign height.
 
-[![NPM](https://img.shields.io/npm/v/@focusinlab/useratio.svg)](https://www.npmjs.com/package/@focusinlab/useratio) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+[![NPM](https://img.shields.io/npm/v/@focusinlab/react-hook-useratio.svg)](https://www.npmjs.com/package/@focusinlab/react-hook-useratio) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
 
 ## Install
 
 ```bash
-npm install --save @focusinlab/useratio
+npm install --save @focusinlab/react-hook-useratio
 ```
 
 ## Usage
@@ -15,9 +15,9 @@ npm install --save @focusinlab/useratio
 ```tsx
 import * as React from 'react'
 
-import { useMyHook } from 'useratio'
+import { useRatio } from '@focusinlab/react-hook-useratio'
 
-const Example = ({children}) => {
+const Example = ({ children }) => {
   const ref = useRef(null)
   const { height } = useRatio(1, 1, ref)
   useEffect(() => {
@@ -44,7 +44,6 @@ const Example = ({children}) => {
     </div>
   )
 }
-
 ```
 
 ## License

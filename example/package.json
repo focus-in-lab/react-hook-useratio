@@ -1,6 +1,6 @@
 {
-  "name": "useratio-example",
-  "homepage": "https://focus-in-lab.github.io/useratio",
+  "name": "react-hook-useratio-example",
+  "homepage": "https://focus-in-lab.github.io/react-hook-useratio",
   "version": "0.0.0",
   "license": "MIT",
   "private": true,
@@ -8,7 +8,7 @@
     "react": "link:../node_modules/react",
     "react-dom": "^16.9.0",
     "react-scripts": "^3.0.1",
-    "useratio": "link:.."
+    "react-hook-useratio": "link:.."
   },
   "scripts": {
     "start": "react-scripts start",
